@@ -9,43 +9,59 @@ body {
     width: 100%;
 }
 
-.section h2 {
-    text-decoration: underline;
+#profile-img {
+    border-radius: 50%;
+    height: 40% !important;
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
+
+.basic-details {
+    text-align: start;
+    position: absolute;
+    left: 30%;
+}
+
+.basic-details span {
+    display: inline;
+    margin-right: 60px;
+}
+
 
 a {
     color: white;
 }
 
-#profile-img {
-    border-radius: 50%;
-    height: 150px;
-    margin: auto !important;
-    display: block !important;
-}
-
-.basic-details {
-    text-align: center;
-}
-
-.basic-details span {
-    display: block;
-}
-
 .section {
     background-color: #FFD771;
     color: #00102A;
-    margin: 30px;
-    padding: 10px 20px;
+    margin: 15% 100px 20px 100px;
+    padding: 20px 80px;
 }
 
-.education h4 {
-    margin-bottom: 5px;
+.section h2 {
+    text-decoration: underline;
 }
 
-.education p {
-    margin-top: 5px;
-    padding-bottom: 20px;
+.section:last-of-type {
+    margin-top: 30px;
+}
+
+.education {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section h2 {
+    text-decoration: underline;
+}
+
+.section p, .section h4 {
+    line-height: 2px;
 }
 
 .leadership-img {
@@ -54,73 +70,12 @@ a {
 
 .leadership {
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
-
-@media only screen and (min-width: 1000px) {
-    #profile-img {
-        border-radius: 50%;
-        height: 40% !important;
-        position: absolute;
-        top: 10%;
-        left: 5%;
-    }
-    
-    .basic-details {
-        text-align: start;
-        position: absolute;
-        left: 30%;
-    }
-    
-    .basic-details span {
-        display: inline;
-        margin-right: 60px;
-    }
-    
-    .section {
-        background-color: #FFD771;
-        color: #00102A;
-        margin: 15% 100px 20px 100px;
-        padding: 20px 80px;
-    }
-    
-    .section:last-of-type {
-        margin-top: 30px;
-    }
-    
-    .education {
-        padding-top: 5px;
-        padding-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .section h2 {
-        text-decoration: underline;
-    }
-    
-    .section p, .section h4 {
-        line-height: 2px;
-    }
-    
-    .leadership-img {
-        width: 100px;
-    }
-    
-    .leadership {
-        padding-top: 5px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .leadership div {
-        margin-left: 20px;
-    }
+.leadership div {
+    margin-left: 20px;
 }
