@@ -1,22 +1,29 @@
-body {
+/* Styles that apply to the entire page */
+body { 
     background-color: #00102A;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
+/* Ensure banner width fills the entire width of the page and does not go beyond/is not too small */
 #banner {
     width: 100%;
 }
 
+/* Underline the main titles */
 .section h2 {
     text-decoration: underline;
 }
 
+/* Ensure all links are white colour */
+/* Default is blue */
 a {
     color: white;
 }
 
+/* MOBILE VIEW STYLES (MOBILE-FIRST DESIGN STRATEGY) */
+/* Make the profile photo rounded */
 #profile-img {
     border-radius: 50%;
     height: 150px;
@@ -24,14 +31,17 @@ a {
     display: block !important;
 }
 
+/* Align basic details text to center */
 .basic-details {
     text-align: center;
 }
 
+/* Make basic details appear in separate lines instead of all in one line */
 .basic-details span {
     display: block;
 }
 
+/* For education and leadership sections (separate) */
 .section {
     background-color: #FFD771;
     color: #00102A;
@@ -61,7 +71,10 @@ a {
 }
 
 
+/* PC VIEW STYLES (MOBILE-FIRST DESIGN STRATEGY) */
 @media only screen and (min-width: 1000px) {
+
+    /* Make profile image hover halfway over the banner for a cooler effect (position absolute is a must */
     #profile-img {
         border-radius: 50%;
         height: 40% !important;
@@ -70,17 +83,21 @@ a {
         left: 5%;
     }
     
+    /* Position absolute needed as well to fit alongside profile image */
     .basic-details {
         text-align: start;
         position: absolute;
         left: 30%;
     }
     
+    /* All basic details appear in one line */
     .basic-details span {
         display: inline;
         margin-right: 60px;
     }
     
+    /* For education and leadership sections (separate) */
+    /* Margin top 15% to fit below the profile image of absolute position */
     .section {
         background-color: #FFD771;
         color: #00102A;
@@ -88,6 +105,7 @@ a {
         padding: 20px 80px;
     }
     
+    /* Last section (leadership section) adjust top margin to 30px instead of 15% */
     .section:last-of-type {
         margin-top: 30px;
     }
