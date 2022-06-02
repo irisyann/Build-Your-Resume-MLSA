@@ -1,0 +1,32 @@
+body {
+    background-color: #00102A;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+}
+
+#profile-image {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.basic-details {
+    position: absolute;
+    left: 30%;
+}
+
+.basic-details span {
+    margin-right: 60px;
+}
+
+a {
+    color: white;
+}
