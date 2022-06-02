@@ -34,7 +34,7 @@ a {
 .section {
     background-color: #FFD771;
     color: #00102A;
-    margin: 15% 50px 20px 50px;
+    margin: 15% 100px 20px 100px;
     padding: 20px 80px;
 }
 
@@ -45,6 +45,9 @@ a {
 .education {
     padding-top: 5px;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .section h2 {
@@ -57,4 +60,15 @@ a {
 
 .leadership-img {
     width: 100px;
+}
+
+.leadership {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.leadership div {
+    margin-left: 20px;
 }
