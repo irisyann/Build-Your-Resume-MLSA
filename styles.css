@@ -51,7 +51,7 @@ a {
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .education h4 {
         margin-bottom: 5px;
     }
