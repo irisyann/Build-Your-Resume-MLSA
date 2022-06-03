@@ -39,15 +39,6 @@ a {
     padding: 10px 20px;
 }
 
-.education h4 {
-    margin-bottom: 5px;
-}
-
-.education p {
-    margin-top: 5px;
-    padding-bottom: 20px;
-}
-
 .leadership-img {
     width: 100px;
 }
@@ -60,6 +51,16 @@ a {
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .education h4 {
+        margin-bottom: 5px;
+    }
+
+    .education p {
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+}
 
 @media only screen and (min-width: 1000px) {
     #profile-img {
