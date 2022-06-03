@@ -8,3 +8,7 @@ Level 2: Applying the Basics
 Level 3: Flexbox
 <br>
 Level 4: Responsiveness (Mobile view)
+
+
+<br><br>
+Full demo here: https://irisyann.github.io/Build-Your-Resume-MLSA/
