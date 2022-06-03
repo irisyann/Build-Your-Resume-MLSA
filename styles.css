@@ -49,13 +49,12 @@ a {
     padding: 10px 20px;
 }
 
-.education h4 {
-    margin-bottom: 5px;
+.education {
+    padding-bottom: 20px;
 }
 
 .education p {
     margin-top: 5px;
-    padding-bottom: 20px;
 }
 
 .leadership-img {
@@ -120,10 +119,6 @@ a {
     
     .section h2 {
         text-decoration: underline;
-    }
-    
-    .section p, .section h4 {
-        line-height: 2px;
     }
     
     .leadership-img {
